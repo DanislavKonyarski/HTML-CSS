@@ -1,0 +1,41 @@
+body{
+   
+    margin: 17%;
+    margin-top: 100px;
+}
+ul{
+    margin: auto;
+}
+li{
+
+    display: inline-block;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.4rem;
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.six{
+
+    width: 300px;
+    height: 453;
+}
+
+.one{
+    position: relative;
+    top: -120px;
+}
+.two{
+    position: relative;
+    top: -120px;
+}
+.four{
+    position: relative;
+    top: -120px;
+}
+
+img{ 
+    margin: auto;
+    padding: auto;
+}
