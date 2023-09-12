@@ -1,0 +1,23 @@
+html{
+  box-sizing: unset;  
+}
+
+section{
+    width: 244px;
+    height: 244px;
+    border: 3px;
+    border-style: dashed;
+    text-align: center;
+    border-color: rgb(35, 202, 133);
+    margin: auto;
+    
+    
+}
+
+p{
+    width: 79.5%;
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(9, 54, 202);
+   padding: 20px;
+}
