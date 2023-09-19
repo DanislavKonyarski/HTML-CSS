@@ -1,9 +1,6 @@
-Semantic Blog Layout
 
-Developer News
 
-HTML
-JavaScript
+
 
 HTML
 
