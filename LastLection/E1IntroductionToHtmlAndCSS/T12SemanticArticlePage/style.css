@@ -17,8 +17,9 @@ section{
     
 }
 
-section>p{
-    color: #5c6e91;
+section>article>p{
+    font-style: italic;
+
 }
 
 h1{
