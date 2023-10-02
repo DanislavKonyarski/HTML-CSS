@@ -6,6 +6,7 @@ html{
 
 body{
     margin: 70px;
+    
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -28,7 +29,7 @@ blockquote{
 
   
 table{
-    width: 100vh;
+    width: 100%;
     border-width: 1px;
     border-color:rgba(181, 179, 179, 0.512);
     border-style: solid;
@@ -45,7 +46,11 @@ th{
     border-color: rgba(181, 179, 179, 0.512);
     margin: 0;
     padding: 0;
+   
 }
 tr:nth-child(even){
     background-color: white;
+}
+td{
+    width: 33%;
 }
