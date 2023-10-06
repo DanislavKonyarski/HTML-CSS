@@ -12,10 +12,7 @@ section{
     justify-content: space-between;
     max-width: 70vw;
     align-items: center;
-    
     margin: auto;
     margin-top: 5rem;
-    
     gap: 3rem;
-
 }
