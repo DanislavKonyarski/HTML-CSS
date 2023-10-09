@@ -1,0 +1,31 @@
+body{
+    background-color: lightgray;
+}
+section{
+padding: 5rem;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    flex-basis: 32%;
+    align-self: center;
+    gap: 2em;
+
+}
+
+li{
+    border: 6px solid black;
+    padding: 20px;
+    background-color: white;
+    /* align-self: center; */
+    margin: 2rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
