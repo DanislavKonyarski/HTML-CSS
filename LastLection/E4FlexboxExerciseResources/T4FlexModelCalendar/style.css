@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+div{
+    display: flex;
+    align-items: center;
+    max-width: 65vw;
+    margin: auto;
+}
+ 
+section{
+    display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
+
+.notes{
+    flex-direction: column;
+    flex-basis: 15vw;
+    flex-shrink: 1;
+    
+}
+.REMIDNERS{
+    height: 20rem;
+}
+.SPECIAL{
+    height: 20rem;
+}
+span{
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 2em;
+}
+.Workweek{
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 10rem;
+}
+
+.Weekend{
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 10rem;
+}
+.Monday, .Thuesday, .Wednesday, .Thursday, .Friday{
+    width:  11vw;
+    flex-shrink: 1;
+    height: 10rem;
+}
+
+.week{
+    flex-wrap: wrap;
+}
+.Saturday, .Sunday {
+    width:  27.5vw;
+    height: 10rem;
+}
+
+body{
+    padding-top: 3rem;
+}

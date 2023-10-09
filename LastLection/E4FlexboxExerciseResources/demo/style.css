@@ -19,6 +19,7 @@ body{
 header{
     border: 2px solid black;
     /* flex: 1; */
+    flex-shrink: 2;
     
     
     
@@ -33,17 +34,21 @@ div{
     align-items: stretch;
     height: 80vh;
     margin: 1rem 0rem;
+    
 }
 main{
     border: 2px solid black;
-    flex: 2;
+    flex: 8;
+    flex-shrink: 2;
 }
 aside{
     border: 2px solid black;
     flex: 1;
+    flex-shrink: 5;
 }
 
 footer{
     border: 2px solid black;
-    /* flex: 3; */
-}
+     flex: 3; 
+     flex-shrink: 1;
+} 
