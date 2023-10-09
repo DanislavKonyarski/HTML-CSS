@@ -1,0 +1,36 @@
+html{
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    margin: 100px;
+}
+header{
+    display: flex;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    justify-content: space-between;
+}
+
+/* h1{
+    display: inline-block;
+}
+nav{
+    display: inline-block;
+    margin-left: 100px;
+}
+
+li{
+    display: inline-block;
+} */
+ul{
+    display: flex;
+}
+
+a{
+    padding-left: 30px;
+    text-decoration: none;
+    color: green;
+}
+
+
