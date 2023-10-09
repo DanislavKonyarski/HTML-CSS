@@ -72,3 +72,27 @@ a{
     text-decoration: none;
     color: green;
 }
+.koti{
+    display: none;
+}
+@media print {
+    header{
+        display: none;
+    }
+    main{
+        display: none;
+    }
+    .koti{
+        display: block;
+    }
+    .koti>p{
+        font-size: 30px;
+        text-align: center;
+    }
+    .koti>img{
+        display: block;
+        text-align: center;
+        border: 0px;
+        margin: auto;
+    }
+}
