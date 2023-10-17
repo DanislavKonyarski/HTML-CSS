@@ -1,0 +1,185 @@
+@import url(https://use.fontawesome.com/releases/v5.10.2/css/all.css);
+
+
+html {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    flex: 1 1 100%
+}
+
+h1 {
+    font-size: 48px;
+    border-right: 1px solid rgb(178, 178, 178);
+    padding-right: 1rem;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+
+
+}
+
+li {
+    margin: 0.5rem 0.1rem 0rem;
+
+}
+
+header>p {
+    position: relative;
+    bottom: -1.5rem;
+    padding-right: 10rem;
+    font-size: 20px;
+    opacity: 70%;
+}
+
+li>a {
+    text-decoration: none;
+    background-color: rgb(236, 236, 236);
+    padding: 2rem 2.3rem;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 0.1rem;
+}
+
+.home_page>a {
+    background-color: rgb(226 78 42);
+    color: white;
+}
+
+img {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 800px;
+    z-index: -10;
+
+}
+
+.first-section {
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+}
+
+.first-section>p {
+    background-color: rgb(226 78 42);
+    padding: 5rem 13rem;
+    color: rgb(255, 255, 255, 70%);
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+span {
+    color: white;
+    text-decoration: underline;
+}
+
+.second-section {
+    display: flex;
+    background-color: rgb(56, 56, 56);
+    justify-content: space-between;
+    text-align: center;
+    padding: 10rem 2rem;
+    gap: 2rem;
+}
+
+.second-section i {
+    background-color: rgb(226 78 42);
+    font-size: 5rem;
+    padding: 1.5rem;
+    color: white;
+}
+
+.second-section p:nth-child(2) {
+    color: white;
+    padding: 1rem;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.second-section p:nth-child(3) {
+    color: rgb(255, 255, 255, 35%);
+    padding-top: 2rem;
+    line-height: 2;
+    font-size: 20px;
+    border-top: 1px solid rgb(255, 255, 255, 20%);
+}
+
+.second-section div:nth-child(1) {
+    position: relative;
+    top: 20px;
+}
+
+.three-section {
+    padding: 8rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 50px;
+    color: rgb(85, 85, 85);
+    font-weight: 400;
+    padding-bottom: 0.2rem;
+}
+
+.three-section>p {
+    font-size: 25px;
+    color: rgb(0, 0, 0, 30%);
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+
+.three-section>a {
+    text-decoration: none;
+    background-color: rgb(27 151 114);
+    color: white;
+    padding: 1.5rem 3rem;
+    font-size: 22px;
+    letter-spacing: 0.3rem;
+}
+
+.four-section {
+    display: flex;
+    background-color: rgb(56, 56, 56);
+    justify-content: space-between;
+    text-align: center;
+    padding: 8rem 2rem;
+    gap: 2rem;
+}
+
+h3 {
+    color: white;
+    padding: 1rem;
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.four-section>div>p{
+    color: rgb(255, 255, 255, 30%);
+    padding-top: 2rem;
+    line-height: 2;
+    font-size: 20px;
+}
+footer{
+    background-color: rgb(27 151 114);
+    padding: 7.5rem;
+    text-align: center;
+    color: rgb(236, 236, 236,50%);
+    letter-spacing: 0.3rem;
+}
+footer>p>span{
+    color: rgb(236, 236, 236,70%);
+}
