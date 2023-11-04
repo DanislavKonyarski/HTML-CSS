@@ -6,13 +6,32 @@
     "configurations": [
         
         {
+            "name": "Attach by Process ID",
+            "processId": "${command:PickProcess}",
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Attach",
+            "port": 9229,
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        
+        {
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\JsFrontEnd\\JsSyntaxFundamentals\\MultiplyTheNumberBy2.js"
+            "program": "${workspaceFolder}\\JsFrontEnd\\L1SyntaxFundamentalsExercises\\T1Ages.js"
         }
     ]
 }
