@@ -1,7 +1,7 @@
 function listOfNames(arr) {
     let printStr="";
-    arr.sort(function(a, b) {
-        return a === b ? 0 : a < b ? -1 : 1;
+    arr.sort((a, b) => {
+        return a.localeCompare(b);
       });
       for (let i = 0; i < arr.length; i++) {
         printStr += (i+1)+"."+arr[i]+"\n";
