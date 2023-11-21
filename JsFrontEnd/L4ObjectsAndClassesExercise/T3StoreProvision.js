@@ -17,7 +17,7 @@ function storeProvision(localProductArr, deliveryPrductArr) {
   }
   Object.entries(localProduct).forEach((Element) => {
     let [key, value] = Element;
-    console.log(key + " -> " + value);
+    console.log(`${key} -> ${value}`);
   });
 }
 
