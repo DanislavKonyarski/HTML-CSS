@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body{
+    margin-top: 100px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+#num1, #num2, #sum{
+    text-align: center;
+    width: 20%;
+    height: 30px;
+    border-radius: 10px ;
+    background-color: pink;
+    max-width: 200px;
+}
+#button{
+    border-radius: 30%;
+    background-color: blueviolet;
+    height: 40px;
+    width: 8%;
+    margin-left: 10px;
+}
+#sign{
+    text-align: center;
+    width: auto;
+    height: 30px;
+    width: 30px;
+    border-radius: 10px ;
+    background-color: pink;
+    margin: 5px;
+}
+span{
+    display: inline-block;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+#ok{
+    display: none;
+    font-size: 100px;
+    color: rgb(43, 255, 0);
+    padding-top: 100px;
+    text-decoration: none;
+}
+#no{
+    display: none;
+    font-size: 100px;
+    color: rgb(212, 20, 20);
+    padding-top: 100px;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+    </style>
+    <title>Sum Numbers</title>
+  </head>
+  <body>
+    <input type="text" id="num1" />
+    <input type="text" id="sign" />
+    <input type="text" id="num2" /><span>=</span>
+    <input type="text" id="sum"  />
+    <input type="button" id="button" value="Check!" onclick="calc()" />
+    <p>
+      <a id="ok" href="index.html">OK :)</a>
+    </p>
+    <p>
+      <a id="no" href="index.html">NO!</a>
+    </p>
+    <script src="SumNumbers.js"></script>
+  </body>
+  <script>
+    function calc() {
+  const num1 = Number(document.getElementById("num1").value);
+  const num2 = Number(document.getElementById("num2").value);
+  const sign = document.getElementById("sign").value;
+  const inputSum = Number(document.getElementById("sum").value);
+  let sum = 0;
+  if (sign === "+") {
+    sum = num1 + num2;
+  } else if (sign === "-") {
+    sum = num1 - num2;
+  }
+  if( sum === inputSum){
+    document.getElementById("ok").style.display = 'block';
+  }else{
+    document.getElementById("no").style.display = 'block';
+  }
+}
+  </script>
+</html>
+
+

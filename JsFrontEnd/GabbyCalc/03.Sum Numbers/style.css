@@ -1,0 +1,51 @@
+body{
+    margin-top: 100px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+#num1, #num2, #sum{
+    text-align: center;
+    width: 20%;
+    height: 30px;
+    border-radius: 10px ;
+    background-color: pink;
+    max-width: 200px;
+}
+#button{
+    border-radius: 30%;
+    background-color: blueviolet;
+    height: 40px;
+    width: 8%;
+    margin-left: 10px;
+}
+#sign{
+    text-align: center;
+    width: auto;
+    height: 30px;
+    width: 30px;
+    border-radius: 10px ;
+    background-color: pink;
+    margin: 5px;
+}
+span{
+    display: inline-block;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+#ok{
+    display: none;
+    font-size: 100px;
+    color: rgb(43, 255, 0);
+    padding-top: 100px;
+    text-decoration: none;
+}
+#no{
+    display: none;
+    font-size: 100px;
+    color: rgb(212, 20, 20);
+    padding-top: 100px;
+    text-decoration: none;
+    font-weight: 700;
+
+}
